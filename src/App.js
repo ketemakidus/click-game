@@ -5,13 +5,6 @@ import Title from "./components/Title";
 import friends from "./friends.json";
 import Nav from "./components/Nav";
 
-function randomFriends(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
 class App extends Component {
   state = {
     friends,
@@ -40,8 +33,6 @@ class App extends Component {
       </Wrapper>
     );
   }
-
-
 }
 
 export default App;
