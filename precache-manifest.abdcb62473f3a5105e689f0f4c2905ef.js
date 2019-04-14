@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a941abcf5aff78ffb994",
-    "url": "/click-game/static/css/main.69de1a21.chunk.css"
+    "revision": "8fc978a3036190162451",
+    "url": "/click-game/static/css/main.c96eba64.chunk.css"
   },
   {
-    "revision": "a941abcf5aff78ffb994",
-    "url": "/click-game/static/js/main.8c523db5.chunk.js"
+    "revision": "8fc978a3036190162451",
+    "url": "/click-game/static/js/main.6caaf474.chunk.js"
   },
   {
     "revision": "aa765b97c1e7aaa53c3e",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/click-game/static/js/2.6efc73d3.chunk.js"
   },
   {
-    "revision": "1f9387ff72aa246c442882e453f5f21a",
+    "revision": "acc3b9e574bf6b3ffd1f344821f8794c",
     "url": "/click-game/index.html"
   }
 ];
