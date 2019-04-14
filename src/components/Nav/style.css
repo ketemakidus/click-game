@@ -1,0 +1,13 @@
+.clicky{
+    background-color: aqua;
+    width: 100%;
+}
+h1{
+    float: left;
+    text-align: center;
+    
+}
+p{
+    font-size: 30px;
+    float: right;
+}

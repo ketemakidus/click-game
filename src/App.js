@@ -11,25 +11,8 @@ class App extends Component {
   };
   render() {
     return (
-      
-    activeKey="/home"
-    onSelect={selectedKey => alert(`selected ${selectedKey}`)}
-  >
-    <Nav.Item>
-      <Nav.Link href="/home">Active</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-1">Link</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-2">Link</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="disabled" disabled>
-        Disabled
-      </Nav.Link>
-    </Nav.Item>
       <Wrapper>
+      <Nav />
         <Title>Clicky Game!
         </Title>
         {this.state.friends.map(friend => (
@@ -41,6 +24,5 @@ class App extends Component {
     );
   }
 }
-console.log("kidus");
 
 export default App;
