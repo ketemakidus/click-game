@@ -1,13 +1,15 @@
-.clicky{
+.nav {
     background-color: aqua;
     width: 100%;
 }
-h1{
+
+h1 {
     float: left;
     text-align: center;
-    
+    font-size: 48px;
 }
-p{
-    font-size: 30px;
+
+.alignRight {
     float: right;
+    font-size: 30px;
 }

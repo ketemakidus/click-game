@@ -15,11 +15,17 @@ class App extends Component {
       <Nav />
         <Title>Clicky Game!
         </Title>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            image={friend.image}
-          />
-        ))}
+          {this.state.friends.map(friend => (
+              <FriendCard
+                key={friend.id}
+                handleClick={this.handleClick}
+                handleIncrement={this.handleIncrement}
+                handleReset={this.handleReset}
+                handleShuffle={this.handleShuffle}
+                id={friend.id}
+                image={friend.image}
+              />
+          ))}
       </Wrapper>
     );
   }
