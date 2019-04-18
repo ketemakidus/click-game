@@ -15,7 +15,7 @@ class App extends Component {
     Clicked: []
   };
 
-  score = id => {
+  Score = id => {
     let Clicked = this.state.Clicked;
 
     if (Clicked.includes(id)){
@@ -49,7 +49,7 @@ for (let i = friends.length - 1; i > 0; i--) {
         <Title>Clicky Game!</Title>
        {this.state.friends.map(friend => (
           <FriendCard
-          score ={this.Clicked}
+          Score ={this.Score}
             key={friend.id}
             id={friend.id}
             image={friend.image}
